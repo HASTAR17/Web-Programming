@@ -38,7 +38,7 @@ document.querySelector("#postBtn").addEventListener("click", () => {
 document.querySelector("#getBtn").addEventListener("click", () => {
     let xhr = new XMLHttpRequest();
 
-    xhr.open("GET", "https://raw.githubusercontent.com/HASTAR17/Web-Programming/refs/heads/main/ajax.json", true);
+    xhr.open("GET", "https://raw.githubusercontent.com/HASTAR17/Web-Programming-/refs/heads/main/ajax.json", true);
 
     xhr.onload = () => {
         if (xhr.status === 200) { // Success
